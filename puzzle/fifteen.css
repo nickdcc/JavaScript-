@@ -1,0 +1,52 @@
+
+/* nick dechant
+ * 
+ * 
+ * This is the cascade style sheet for fifteen.html
+ * 
+ * */
+
+body
+{
+	width: 1000px;
+}
+
+body, button, select
+{
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+	margin: auto;
+}
+
+#puzzlearea {
+	position: relative;
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 400px;
+	height: 400px;
+	
+}
+
+.square {
+	border: 5px solid black;
+	position: absolute; 
+	font-size: 40pt;
+	width: 90px;
+	height: 90px;
+
+}
+
+#grats /* //added this id for the congrats msg   */
+{
+	color:#669933;
+	font-size: 34pt;
+	font-weight: bold;
+	font-family: ariel;
+}
+
+.hover:hover {
+border-color: red;
+color:red;
+cursor:pointer;
+}
