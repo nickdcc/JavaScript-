@@ -1,1 +1,1 @@
-A fun fifteen puzzle game programmed in JavaScript. This assignment was very difficult. See fifteen.js
+A fun fifteen puzzle game programmed in JavaScript. See fifteen.js
