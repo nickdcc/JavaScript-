@@ -1,6 +1,6 @@
 /* Nick DeChant
  * 
- * old skool skills
+ * November 2012
  * 
  * This is a javascript program that is in charge of the behavior for a 
  * Fifteen Puzzle game. 
