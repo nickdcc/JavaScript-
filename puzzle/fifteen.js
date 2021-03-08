@@ -13,7 +13,7 @@
 //coordinates for the empty lower-right square
 var whiteLeft = 300;
 var whiteTop = 300;
-//counters for it we have won or made a move yet
+//counters for if we have won or made a move yet
 var move = 0;
 window.onload = function() {
 	document.getElementById("background").onchange = changeBack;
@@ -50,7 +50,7 @@ function shuffle(){
 //this function adds fifteen squares to the puzzle area and
 //remembers the current pic / # of wins
 function buildGrid(){
-	var area = document.getElementById("puzzlearea"); //this is where we add shit
+	var area = document.getElementById("puzzlearea"); //add each tile and build the grid
 	for (var i = 0; i <= 14; i++){
 		var x = parseInt((i % 4)) * 100; //display rows in terms of 0,1,2,3 each time we add to the puzzle
 		var y = parseInt(Math.floor(i / 4)) * 100;  //display columns in terms of 0,1,2,3 each time we add to the puzzle
